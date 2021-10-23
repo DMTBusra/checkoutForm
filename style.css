@@ -34,13 +34,15 @@ p{
 .products{
     border: solid 1px black;
     width: 28%;
-    /* height:100%; */
+  
     background-color:#eeeeee;
     padding:10px 20px;
   border: none;
   border-radius: 8px;
   position: absolute;
   right: 22%;
+  
+  
  
     
 }
@@ -65,14 +67,20 @@ main{
     border-radius: 5px;
     border: solid 1px #828282;
     padding: 8px;
+    padding:8px 5px 8px 35px;
+
 }
+
 #post-code{
-    width: 280px;
+    width: 250px;
+    margin-left: 5px;
     
 }
+
 #dropdown{
     width: 100px;
     padding: 7px;
+    text-align: right;
 
 }
 input:hover{
@@ -96,6 +104,7 @@ img{
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     color:#4E5150;
+    font-weight: 700;
 }
 .cost{
     color: #f2994A;
@@ -109,40 +118,29 @@ span{
 }
 .button{
     display:flex;
-    border: 1px solid black;
+    border: 1px solid rgb(136,136,136);
     justify-content: space-around;
     vertical-align: center;
     width:60%;
     border-radius: 5px;
-    font-size:16px ;
     font-weight: bolder;
 }
-/* .operator{
-    background-color: #e0e0e0;
-    width:20%;
-    height:20%;
-    margin: 5px 1px;
-    text-align: center;
-} */
-/* .eksi{
-    border: 1px solid black;
-    margin: 2px;
-} */
-.part1{
+.button p {
+    font-size: 12px;
+}
+
+.part1 ,.part2 {
     display:flex;
 
-   
 } 
-.part2{
-    display:flex;
-   
-} 
+
 .part3{
     color: black;
     font-family: 'Montserrat', sans-serif;
-    
-    font-size: 16px;
     margin-top: 25px;
+}
+.part3 p{
+    font-size: 16px;
 }
 .first,.second{
     display:flex;
@@ -159,4 +157,40 @@ span{
     font-weight: 700;
     width: 100%;
     
+}
+.info span{
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    font-weight: 700;
+    margin:3px 0;
+    width:1.4rem;
+    height:1.4rem;
+    text-align:  center;
+    color: black;
+}
+.continue{
+    position: absolute;
+    bottom: 7%;
+    left: 45%;
+   
+}
+.button_continue{
+    background-color: #f2994A;
+    color: white;
+    font-size: 0.8rem;
+    border-radius: 10px;
+    font-family: Arial;
+    padding:14px 14px 14px 14px;
+    border:none;
+    font-weight: 700;
+}
+.Checkout-Form i{
+   position: absolute;
+   left: 3%;
+  margin-top: 7px;
+    
+}
+#forms i{
+    position: absolute;
+    left: 30%;
 }
