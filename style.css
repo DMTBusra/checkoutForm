@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+   
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    margin: 15px 0 25px 0;
+    display:block;
+    
+
+}
+
+.Checkout-Form{
+    
+    color: #828282;
+    position:absolute;
+    left: 15%;
+    line-height: 22px;
+    
+    
+
+}
+p{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.products{
+    border: solid 1px black;
+    width: 28%;
+    /* height:100%; */
+    background-color:#eeeeee;
+    padding:10px 20px;
+  border: none;
+  border-radius: 8px;
+  position: absolute;
+  right: 22%;
+ 
+    
+}
+main{
+    display: flex;
+    justify-content: space-around;
+
+}
+.options{
+    display:flex;
+
+}
+#form{
+    
+    font-size: 14px;
+    font-family: Arial;
+    border: solid 1px #828282;
+    
+}
+#phone ,#EMAİL,  #name, #address ,#city,#post-code,#dropdown{
+    width: 372px;
+    border-radius: 5px;
+    border: solid 1px #828282;
+    padding: 8px;
+}
+#post-code{
+    width: 280px;
+    
+}
+#dropdown{
+    width: 100px;
+    padding: 7px;
+
+}
+input:hover{
+    outline: rgb(255,0,0)dashed 1px;
+}
+
+label{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+img{
+    width: 60%;
+    height:90%;
+    margin:10px 0 10px 0;
+    border-radius: 6px;
+   
+}
+.text{
+    
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color:#4E5150;
+}
+.cost{
+    color: #f2994A;
+    font-weight: 600;
+}
+span{
+    font-size: 12px;
+    color: #4E5150;
+    text-decoration: line-through solid rgb(78, 81, 80);
+
+}
+.button{
+    display:flex;
+    border: 1px solid black;
+    justify-content: space-around;
+    vertical-align: center;
+    width:60%;
+    border-radius: 5px;
+    font-size:16px ;
+    font-weight: bolder;
+}
+/* .operator{
+    background-color: #e0e0e0;
+    width:20%;
+    height:20%;
+    margin: 5px 1px;
+    text-align: center;
+} */
+/* .eksi{
+    border: 1px solid black;
+    margin: 2px;
+} */
+.part1{
+    display:flex;
+
+   
+} 
+.part2{
+    display:flex;
+   
+} 
+.part3{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    
+    font-size: 16px;
+    margin-top: 25px;
+}
+.first,.second{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.info{
+    margin-top: 10px;
+  
+    font-size: 16px;
+   line-height: 30px;
+   color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    width: 100%;
+    
+}
