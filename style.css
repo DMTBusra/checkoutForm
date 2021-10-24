@@ -194,3 +194,20 @@ span{
     position: absolute;
     left: 30%;
 }
+/* @media (max-width:500px) {
+    main{
+        display:flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+   .products{
+        width:75%;
+        position: relative;
+        margin:auto;
+
+        
+
+        
+    }
+    
+} */
