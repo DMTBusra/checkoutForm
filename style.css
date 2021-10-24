@@ -21,6 +21,7 @@
     position:absolute;
     left: 15%;
     line-height: 22px;
+    width:30%;
     
     
 
@@ -55,15 +56,16 @@ main{
     display:flex;
 
 }
-#form{
+#forms{
     
     font-size: 14px;
     font-family: Arial;
-    border: solid 1px #828282;
+    width:60%;
+    
     
 }
 #phone ,#EMAİL,  #name, #address ,#city,#post-code,#dropdown{
-    width: 372px;
+    width: 100%;
     border-radius: 5px;
     border: solid 1px #828282;
     padding: 8px;
@@ -72,15 +74,15 @@ main{
 }
 
 #post-code{
-    width: 250px;
+    width:100%;
     margin-left: 5px;
     
 }
 
 #dropdown{
-    width: 100px;
-    padding: 7px;
-    text-align: right;
+    
+    
+    text-align: center;
 
 }
 input:hover{
@@ -188,11 +190,12 @@ span{
    position: absolute;
    left: 3%;
   margin-top: 7px;
-    
+   
 }
 #forms i{
     position: absolute;
-    left: 30%;
+    left: 35%;
+    bottom: 12% ;
 }
 /* @media (max-width:500px) {
     main{
